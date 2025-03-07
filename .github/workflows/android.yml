@@ -5,6 +5,8 @@ on:
     branches: [ "chart" ]
   pull_request:
     branches: [ "chart" ]
+  workflow_dispatch:
+    branches: [ "chart" ]
 
 jobs:
   build:
